@@ -1,0 +1,13 @@
+[user]
+	name = Willy Raedy
+	email = wraedy@gmail.com
+[credential]
+	helper = osxkeychain
+[core]
+	excludesfile = /Users/willyraedy/.gitignore_global
+[alias]
+	co = checkout
+	br = branch
+	cm = commit -m
+	branch-name = "!git rev-parse --abbrev-ref HEAD"
+	publish = "!git push -u origin $(git branch-name)"
