@@ -4,9 +4,10 @@ tap "homebrew/bundle"
 tap "homebrew/core"
 tap "homebrew/services"
 tap "mongodb/brew"
+cask "adoptopenjdk"
 brew "awscli"
 brew "bash-completion"
-brew "elasticsearch", restart_service: tru
+brew "elasticsearch", restart_service: true
 brew "git"
 brew "heroku"
 brew "htop"
@@ -14,10 +15,8 @@ brew "httpie"
 brew "jq"
 brew "libtool"
 brew "mas"
-brew "mongodb"
-brew "nvm"
+brew "mongodb/brew/mongodb-community"
 brew "postgresql", restart_service: true
-brew "python", link: false
 brew "pipenv"
 brew "redis", restart_service: true
 brew "tmux"
@@ -26,7 +25,6 @@ brew "yarn"
 brew "zsh"
 brew "heroku/brew/heroku"
 cask "1password"
-cask "anaconda"
 cask "dash"
 cask "dbeaver-community"
 cask "docker"
@@ -34,7 +32,6 @@ cask "brave-browser"
 cask "flux"
 cask "graphql-playground"
 cask "iterm2"
-cask "java8"
 cask "licecap"
 cask "ngrok"
 cask "postman"
@@ -42,6 +39,7 @@ cask "tunnelbear"
 cask "skype"
 cask "sketch"
 cask "skitch"
+cask "signal"
 cask "slack"
 cask "spotify"
 cask "sync"
@@ -49,9 +47,9 @@ cask "tableau"
 cask "telegram"
 cask "visual-studio-code"
 cask "zoom"
-mas "Bear", id: 1091189122
 mas "DaisyDisk", id: 411643860
 mas "Magnet", id: 441258766
 mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
+mas "Notebook - Take Notes, Sync", id: 1173152781
