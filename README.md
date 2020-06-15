@@ -36,7 +36,7 @@ To install on a new machine do:
 
 1. Run `nvm install node`
 
-1. [Install Anaconda](https://docs.anaconda.com/anaconda/install/mac-os/)
+1. [Install Anaconda](https://docs.anaconda.com/anaconda/install/mac-os/) and python through anaconda
 
 ## Test Install
 
